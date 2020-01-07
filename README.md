@@ -32,3 +32,7 @@ code .
 ## 4. Conventional Commit Messages & Semantic Versioning
 
 ### 4.1 Use [standard-commit](https://github.com/SandroMiguel/standard-commit)
+
+## 5. EditorConfig
+
+### 5.1 Use [editorconfig-boilerplate](https://github.com/SandroMiguel/editorconfig-boilerplate)
