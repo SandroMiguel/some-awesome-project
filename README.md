@@ -36,3 +36,7 @@ code .
 ## 5. EditorConfig
 
 ### 5.1 Use [editorconfig-boilerplate](https://github.com/SandroMiguel/editorconfig-boilerplate)
+
+## 6. Linting & Code Formatter
+
+### 6.1 Use [eslint-config-cecilia](https://github.com/SandroMiguel/eslint-config-cecilia)

@@ -1,43 +1,47 @@
 {
-  "name": "some-awesome-project",
-  "version": "0.0.1",
-  "description": "Project setup guidelines for my personal projects",
-  "main": "index.js",
-  "license": "MIT",
-  "author": {
-    "name": "Sandro Miguel Marques",
-    "email": "sandromiguel@sandromiguel.com",
-    "url": "http://sandromiguel.com"
-  },
-  "keywords": [
-    "project",
-    "setup",
-    "guidelines",
-    "javascript"
-  ],
-  "repository": "https://github.com/SandroMiguel/some-awesome-project",
-  "bugs": {
-    "url": "https://github.com/SandroMiguel/some-awesome-project/issues"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    "name": "some-awesome-project",
+    "version": "0.0.1",
+    "description": "Project setup guidelines for my personal projects",
+    "main": "index.js",
+    "license": "MIT",
+    "author": {
+        "name": "Sandro Miguel Marques",
+        "email": "sandromiguel@sandromiguel.com",
+        "url": "http://sandromiguel.com"
+    },
+    "keywords": [
+        "project",
+        "setup",
+        "guidelines",
+        "javascript"
+    ],
+    "repository": "https://github.com/SandroMiguel/some-awesome-project",
+    "bugs": {
+        "url": "https://github.com/SandroMiguel/some-awesome-project/issues"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "lint:format": "prettier --write \"./**/*.{js,jsx,json}\"",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "release": "standard-version"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^8.3.4",
+        "@commitlint/config-conventional": "^8.3.4",
+        "cz-conventional-changelog": "^3.0.2",
+        "eslint-config-cecilia": "^1.5.0",
+        "husky": "^4.0.0",
+        "standard-version": "^7.0.1"
     }
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^8.3.4",
-    "@commitlint/config-conventional": "^8.3.4",
-    "cz-conventional-changelog": "^3.0.2",
-    "husky": "^4.0.0",
-    "standard-version": "^7.0.1"
-  }
 }
