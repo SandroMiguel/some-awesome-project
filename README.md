@@ -45,7 +45,7 @@ code .
 
 ## 7. Add other files
 
-### 7.1 Add CONTRIBUTING.md
+### 7.1 Add [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Contributing
 
