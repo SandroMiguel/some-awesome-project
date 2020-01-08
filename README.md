@@ -21,13 +21,22 @@ cd <SOME-AWESOME-PROJECT>
 code .
 ```
 
-## .gitignore
+### Step 3 - Add `.gitignore`
 
-### Step 3 - Use [gitignore-boilerplate](https://github.com/SandroMiguel/gitignore-boilerplate)
+Use [gitignore-boilerplate](https://github.com/SandroMiguel/gitignore-boilerplate)
+
+### Step 4 - Configure local name and email
+
+I decided to use my professional email globally, and set up another email locally for my personal projects.
+
+```
+git config --local user.name "SandroMiguel"
+git config --local user.email "sandromiguel@sandromiguel.com"
+```
 
 ## Visual Studio Code settings
 
-### Step 4 - Configure `.vscode/settings.json`
+### Step 5 - Configure `.vscode/settings.json`
 
 ```
 {
@@ -151,25 +160,29 @@ code .
 
 ## Package Management
 
-### Step 5 - Use [package.json-boilerplate](https://github.com/SandroMiguel/package.json-boilerplate)
+### Step 6 - Add `package.json`
+
+Use [package.json-boilerplate](https://github.com/SandroMiguel/package.json-boilerplate)
 
 **ProTip**: Sync Github topics with `package.json` file keywords
 
 ## Conventional Commit Messages & Semantic Versioning
 
-### Step 6 - Use [standard-commit](https://github.com/SandroMiguel/standard-commit)
+### Step 7 - Use [standard-commit](https://github.com/SandroMiguel/standard-commit)
 
 ## EditorConfig
 
-### Step 7 - Use [editorconfig-boilerplate](https://github.com/SandroMiguel/editorconfig-boilerplate)
+### Step 8 - Add `.editorconfig`
+
+Use [editorconfig-boilerplate](https://github.com/SandroMiguel/editorconfig-boilerplate)
 
 ## Linting & Code Formatter
 
-### Step 8 - Use [eslint-config-cecilia](https://github.com/SandroMiguel/eslint-config-cecilia)
+### Step 9 - Install [eslint-config-cecilia](https://github.com/SandroMiguel/eslint-config-cecilia)
 
 ## Add other files
 
-### Step 9 - Add [CONTRIBUTING.md](CONTRIBUTING.md)
+### Step 10 - Add [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Contributing
 
