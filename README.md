@@ -8,7 +8,7 @@ Project setup guidelines for my personal projects.
 
 ### Step 1 - Create a new repository
 
-Write the name and description (add readme and licence)
+Write the name and description (add readme and license)
 
 ### Step 2 - Clone with SSH
 
