@@ -142,7 +142,10 @@ code .
     "statusBarItem.hoverBackground": "#7263b5",
     "statusBar.foreground": "#e7e7e7"
   },
-  "peacock.color": "#594a9b"
+  "peacock.color": "#594a9b",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
 }
 ```
 
