@@ -2,6 +2,8 @@
 
 Project setup guidelines for my personal projects.
 
+[![license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
+
 ## 1. GitHub
 
 ### 1.1 Create a new repository
