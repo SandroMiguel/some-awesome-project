@@ -36,11 +36,62 @@ git config --local user.email "sandromiguel@sandromiguel.com"
 
 ## Visual Studio Code settings
 
-### Step 5 - Configure `.vscode/settings.json`
+### Step 5 - Configure Workspace
+
+**Workspace** settings
+
+`.vscode/settings.json`
 
 ```
 {
-  "window.zoomLevel": 0,
+    "peacock.color": "#f5027b",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#fd2d95",
+        "activityBar.activeBackground": "#fd2d95",
+        "activityBar.activeBorder": "#70dd02",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#70dd02",
+        "activityBarBadge.foreground": "#15202b",
+        "titleBar.activeBackground": "#f5027b",
+        "titleBar.inactiveBackground": "#f5027b99",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "statusBar.background": "#f5027b",
+        "statusBarItem.hoverBackground": "#fd2d95",
+        "statusBar.foreground": "#e7e7e7"
+    }
+}
+```
+
+**User** settings
+
+`~/.config/Code/User/settings.json`
+
+```
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.fontFamily": "'Ubuntu Mono', monospace",
+  "editor.fontSize": 17,
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
   "editor.tokenColorCustomizations": {
     "comments": "#FFF",
     "variables": "#FF6D4A",
@@ -58,25 +109,12 @@ git config --local user.email "sandromiguel@sandromiguel.com"
       }
     ]
   },
-  "editor.fontSize": 15,
-  "gitlens.codeLens.enabled": false,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.copyOnSelection": true,
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontWeightBold": "normal",
-  "terminal.integrated.fontSize": 13,
-  "terminal.integrated.drawBoldTextInBrightColors": false,
-  "terminal.integrated.fontFamily": "Monospace",
-  "javascript.preferences.importModuleSpecifier": "non-relative",
-  "terminal.integrated.rendererType": "dom",
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.debug": true,
+  "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.formatOnSave": true,
+  "gitlens.codeLens.enabled": false,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
   "peacock.favoriteColors": [
     {
       "name": "Angular Red",
@@ -131,30 +169,20 @@ git config --local user.email "sandromiguel@sandromiguel.com"
       "value": "#42b883"
     }
   ],
-  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  "php-cs-fixer.lastDownload": 1559774512768,
   "php.validate.run": "onType",
   "phpcs.showSources": true,
-  "phpcs.executablePath": "./vendor/squizlabs/php_codesniffer/bin/phpcs",
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#7263b5",
-    "activityBar.activeBorder": "#cc9d93",
-    "activityBar.foreground": "#e7e7e7",
-    "activityBar.inactiveForeground": "#e7e7e799",
-    "activityBarBadge.background": "#cc9d93",
-    "activityBarBadge.foreground": "#15202b",
-    "titleBar.activeBackground": "#594a9b",
-    "titleBar.inactiveBackground": "#594a9b99",
-    "titleBar.activeForeground": "#e7e7e7",
-    "titleBar.inactiveForeground": "#e7e7e799",
-    "statusBar.background": "#594a9b",
-    "statusBarItem.hoverBackground": "#7263b5",
-    "statusBar.foreground": "#e7e7e7"
-  },
-  "peacock.color": "#594a9b",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  }
+  "phpcs.executablePath": "/home/sandro/.composer/vendor/bin/phpcs",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.fontFamily": "'Ubuntu Mono', monospace",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.rendererType": "dom",
+  "typescript.tsserver.log": "verbose",
+  "vsicons.dontShowNewVersionMessage": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.zoomLevel": 0
 }
 ```
 
