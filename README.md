@@ -21,11 +21,7 @@ cd <SOME-AWESOME-PROJECT>
 code .
 ```
 
-### Step 3 - Add `.gitignore`
-
-Use [gitignore-boilerplate](https://github.com/SandroMiguel/gitignore-boilerplate)
-
-### Step 4 - Configure local name and email
+### Step 3 - Configure local name and email
 
 I decided to use my professional email globally, and set up another email locally for my personal projects.
 
@@ -33,6 +29,10 @@ I decided to use my professional email globally, and set up another email locall
 git config --local user.name "SandroMiguel"
 git config --local user.email "sandromiguel@sandromiguel.com"
 ```
+
+### Step 4 - Add `.gitignore`
+
+Use [gitignore-boilerplate](https://github.com/SandroMiguel/gitignore-boilerplate)
 
 ## Visual Studio Code settings
 
