@@ -14,7 +14,7 @@ Write the name and description (add readme and license)
 
 Clone the online repo.
 
-```
+```sh
 cd ~/web
 git clone git@github.com:SandroMiguel/<SOME-AWESOME-PROJECT>.git
 cd <SOME-AWESOME-PROJECT>
@@ -25,7 +25,7 @@ code .
 
 I decided to use my professional email globally, and set up another email locally for my personal projects.
 
-```
+```sh
 git config --local user.name "SandroMiguel"
 git config --local user.email "sandromiguel@sandromiguel.com"
 ```
