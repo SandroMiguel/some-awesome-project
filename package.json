@@ -1,6 +1,6 @@
 {
     "name": "some-awesome-project",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Project setup guidelines for my personal projects",
     "main": "index.js",
     "license": "MIT",
@@ -36,12 +36,13 @@
             "path": "./node_modules/cz-conventional-changelog"
         }
     },
+    "dependencies": {},
     "devDependencies": {
-        "@commitlint/cli": "^8.3.5",
-        "@commitlint/config-conventional": "^8.3.4",
-        "cz-conventional-changelog": "^3.1.0",
-        "eslint-config-cecilia": "^2.0.3",
-        "husky": "^4.2.3",
-        "standard-version": "^8.0.1"
+        "@commitlint/cli": "^11.0.0",
+        "@commitlint/config-conventional": "^11.0.0",
+        "cz-conventional-changelog": "^3.3.0",
+        "eslint-config-cecilia": "^2.1.1",
+        "husky": "^4.3.0",
+        "standard-version": "^9.0.0"
     }
 }
