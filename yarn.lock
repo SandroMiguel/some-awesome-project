@@ -1295,10 +1295,10 @@ eslint-config-airbnb@^18.2.0:
     object.assign "^4.1.2"
     object.entries "^1.1.2"
 
-eslint-config-cecilia@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-cecilia/-/eslint-config-cecilia-2.1.1.tgz#128db12e1b6cb25a9c85977296c4727d2f369229"
-  integrity sha512-94lZxm0nCWtMqIpMnKWbzXpcRjD9JaNiuuwGh13C4QeUDMy84wwKzAzm6WeOyzOhIRHyI2WLqO9tBlDRLPhWAA==
+eslint-config-cecilia@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-cecilia/-/eslint-config-cecilia-2.2.0.tgz#37ff2136519874e3572990870cf0403b58745c2f"
+  integrity sha512-Hpju63IjHC5WQEm+dXpLBbA4QDklDMyphubKMFrP4Y4ta4FEpgza593zN0099sPNvAmc15lZptDJwxFkUah9TA==
   dependencies:
     eslint "^7.11.0"
     eslint-config-airbnb "^18.2.0"
