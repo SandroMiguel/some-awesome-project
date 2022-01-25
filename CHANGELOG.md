@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/SandroMiguel/some-awesome-project/compare/v0.0.6...v1.0.0) (2022-01-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependencies ([5c2f494](https://github.com/SandroMiguel/some-awesome-project/commit/5c2f4948a27e9c7e870eb7078d6a3967f2fd3732))
+
 ### [0.0.6](https://github.com/SandroMiguel/some-awesome-project/compare/v0.0.5...v0.0.6) (2020-12-12)
 
 ### [0.0.5](https://github.com/SandroMiguel/some-awesome-project/compare/v0.0.4...v0.0.5) (2020-11-10)
