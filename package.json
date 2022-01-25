@@ -1,6 +1,6 @@
 {
     "name": "some-awesome-project",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Project setup guidelines for my personal projects",
     "main": "index.js",
     "license": "MIT",
