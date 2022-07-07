@@ -124,22 +124,17 @@ Use [editorconfig-boilerplate](https://github.com/SandroMiguel/editorconfig-boil
 
 ```
 {
-    "peacock.color": "#f5027b",
     "workbench.colorCustomizations": {
-        "activityBar.background": "#fd2d95",
-        "activityBar.activeBackground": "#fd2d95",
-        "activityBar.activeBorder": "#70dd02",
-        "activityBar.foreground": "#e7e7e7",
-        "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#70dd02",
-        "activityBarBadge.foreground": "#15202b",
-        "titleBar.activeBackground": "#f5027b",
-        "titleBar.inactiveBackground": "#f5027b99",
-        "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveForeground": "#e7e7e799",
-        "statusBar.background": "#f5027b",
-        "statusBarItem.hoverBackground": "#fd2d95",
-        "statusBar.foreground": "#e7e7e7"
+        "activityBar.background": "#d40000",
+        "activityBar.activeBackground": "#FF5050",
+        "activityBar.activeBorder": "#ffffff",
+        "activityBar.foreground": "#000000",
+        "activityBar.inactiveForeground": "#ffffff",
+        "activityBarBadge.background": "#000000",
+        "activityBarBadge.foreground": "#ffffff",
+        "statusBar.background": "#d40000",
+        "statusBarItem.hoverBackground": "#FF5050",
+        "statusBar.foreground": "#ffffff"
     }
 }
 ```
@@ -151,7 +146,7 @@ Use [editorconfig-boilerplate](https://github.com/SandroMiguel/editorconfig-boil
 ```
 {
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.formatOnSave": false
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -165,15 +160,26 @@ Use [editorconfig-boilerplate](https://github.com/SandroMiguel/editorconfig-boil
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": ["autoload", "phpcs", "noreferrer"],
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "editor.fontFamily": "'Ubuntu Mono', monospace",
-  "editor.fontSize": 17,
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontSize": 15,
   "editor.formatOnSave": true,
+  "editor.matchBrackets": "never",
+  "editor.suggest.insertMode": "replace",
+  "editor.suggest.showWords": false,
   "editor.suggestSelection": "first",
   "editor.tokenColorCustomizations": {
-    "comments": "#FFF",
+    "comments": "#b1b1b1",
     "variables": "#FF6D4A",
     "functions": "#00B2BF",
     "strings": "#FFF",
@@ -184,7 +190,7 @@ Use [editorconfig-boilerplate](https://github.com/SandroMiguel/editorconfig-boil
       {
         "scope": "comment",
         "settings": {
-          "foreground": "#FFF"
+          "foreground": "#b1b1b1"
         }
       }
     ]
@@ -193,76 +199,33 @@ Use [editorconfig-boilerplate](https://github.com/SandroMiguel/editorconfig-boil
   "eslint.debug": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "gitblame.statusBarMessageFormat": "Blame ${author.name} ( ${author.date} )",
   "gitlens.codeLens.enabled": false,
   "javascript.preferences.importModuleSpecifier": "non-relative",
-  "peacock.favoriteColors": [
-    {
-      "name": "Angular Red",
-      "value": "#b52e31"
-    },
-    {
-      "name": "Auth0 Orange",
-      "value": "#eb5424"
-    },
-    {
-      "name": "Azure Blue",
-      "value": "#007fff"
-    },
-    {
-      "name": "C# Purple",
-      "value": "#68217A"
-    },
-    {
-      "name": "Gatsby Purple",
-      "value": "#639"
-    },
-    {
-      "name": "Go Cyan",
-      "value": "#5dc9e2"
-    },
-    {
-      "name": "Java Blue-Gray",
-      "value": "#557c9b"
-    },
-    {
-      "name": "JavaScript Yellow",
-      "value": "#f9e64f"
-    },
-    {
-      "name": "Mandalorian Blue",
-      "value": "#1857a4"
-    },
-    {
-      "name": "Node Green",
-      "value": "#215732"
-    },
-    {
-      "name": "React Blue",
-      "value": "#00b3e6"
-    },
-    {
-      "name": "Something Different",
-      "value": "#832561"
-    },
-    {
-      "name": "Vue Green",
-      "value": "#42b883"
-    }
-  ],
-  "php.validate.run": "onType",
-  "phpcs.showSources": true,
-  "phpcs.executablePath": "/home/sandro/.composer/vendor/bin/phpcs",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "php.suggest.basic": false,
+  "phpCodeSniffer.standard": "Custom",
+  "phpCodeSniffer.autoExecutable": true,
+  "phpCodeSniffer.standardCustom": "~/phpcs-cecilia-standard",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.drawBoldTextInBrightColors": false,
-  "terminal.integrated.fontFamily": "'Ubuntu Mono', monospace",
+  "terminal.integrated.fontFamily": "Source Code Pro",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.rendererType": "dom",
-  "typescript.tsserver.log": "verbose",
+  "todo-tree.filtering.includeGlobs": ["**/*.php", "**/*.js"],
+  "todo-tree.tree.showScanModeButton": false,
+  "typescript.tsserver.log": "off",
+  "versionlens.showVersionLensesAtStartup": false,
   "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "window.zoomLevel": 0
+  "workbench.colorCustomizations": {
+    "editor.findMatchBackground": "#00cc44a8",
+    "editor.findMatchHighlightBackground": "#ff7b00a1"
+  },
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.editor.wrapTabs": true
 }
 ```
 
