@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/SandroMiguel/some-awesome-project/compare/v1.0.2...v1.1.0) (2022-07-07)
+
+
+### Features
+
+* update vscode settings.json ([46999d3](https://github.com/SandroMiguel/some-awesome-project/commit/46999d324242adab36cf7b91f13bd85ff35605f8))
+
 ### [1.0.2](https://github.com/SandroMiguel/some-awesome-project/compare/v1.0.1...v1.0.2) (2022-01-25)
 
 
