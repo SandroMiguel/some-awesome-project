@@ -166,13 +166,13 @@ Use [editorconfig-boilerplate](https://github.com/SandroMiguel/editorconfig-boil
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.userWords": ["autoload", "phpcs", "noreferrer"],
+  "cSpell.userWords": ["autoload", "noreferrer", "phpcs", "stylelint"],
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "editor.fontFamily": "'JetBrains Mono', monospace",
-  "editor.fontSize": 15,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.matchBrackets": "never",
   "editor.suggest.insertMode": "replace",
@@ -207,26 +207,38 @@ Use [editorconfig-boilerplate](https://github.com/SandroMiguel/editorconfig-boil
   "phpCodeSniffer.standard": "Custom",
   "phpCodeSniffer.autoExecutable": true,
   "phpCodeSniffer.standardCustom": "~/phpcs-cecilia-standard",
+  "stylelint.autoFixOnSave": true,
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.drawBoldTextInBrightColors": false,
-  "terminal.integrated.fontFamily": "Source Code Pro",
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontFamily": "noto mono",
+  "terminal.integrated.fontSize": 16,
   "terminal.integrated.rendererType": "dom",
   "todo-tree.filtering.includeGlobs": ["**/*.php", "**/*.js"],
   "todo-tree.tree.showScanModeButton": false,
   "typescript.tsserver.log": "off",
   "versionlens.showVersionLensesAtStartup": false,
   "vsicons.dontShowNewVersionMessage": true,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#5cef81",
+    "editorBracketHighlight.foreground2": "#dfb976",
+    "editorBracketHighlight.foreground3": "#c172d9",
+    "editorBracketHighlight.foreground4": "#4fb1bc",
+    "editorBracketHighlight.foreground5": "#97c26c",
+    "editorBracketHighlight.foreground6": "#abb2c0",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
     "editor.findMatchBackground": "#00cc44a8",
-    "editor.findMatchHighlightBackground": "#ff7b00a1"
+    "editor.findMatchHighlightBackground": "#1bb958a1"
   },
+  "workbench.editor.wrapTabs": true,
   "workbench.colorTheme": "Visual Studio Dark",
-  "workbench.editor.wrapTabs": true
+  "editor.fontSize": 16,
+  "security.workspace.trust.untrustedFiles": "open",
+  "phpcs.standard": "~/phpcs-cecilia-standard",
+  "phpcs.executablePath": "/home/sandro/.config/composer/vendor/bin/phpcs"
 }
+
 ```
 
 ## Contributing

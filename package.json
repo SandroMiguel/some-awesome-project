@@ -23,9 +23,7 @@
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
         "lint:format": "prettier --write \"./**/*.{js,jsx,json}\"",
-        "test": "echo \"no test specified\" && exit 0",
-        "release": "standard-version",
-        "postinstall": "husky install"
+        "test": "echo \"no test specified\" && exit 0"
     },
     "config": {
         "commitizen": {
@@ -33,7 +31,6 @@
             "disableScopeLowerCase": true
         }
     },
-    "dependencies": {},
     "devDependencies": {
         "@commitlint/cli": "^16.1.0",
         "@commitlint/config-conventional": "^16.0.0",
