@@ -6,7 +6,7 @@ A set of project setup guidelines for my personal projects.
 
 ## Overview
 
-Some Awesome Project provides a set of guidelines for setting up my personal projects. Whether you choose to clone an existing repository or create a new one from scratch, these steps will help you get started quickly.
+**Some Awesome Project** provides a set of guidelines for setting up my personal projects. Whether you choose to clone an existing repository or create a new one from scratch, these steps will help you get started quickly.
 
 ## Getting Started
 
