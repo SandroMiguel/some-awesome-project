@@ -1,20 +1,20 @@
 # Some Awesome Project
 
-Project setup guidelines for my personal projects.
+A set of project setup guidelines for my personal projects.
 
 [![license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 
-## Option A: Clone this repo
+## Overview
 
-### GitHub
+Some Awesome Project provides a set of guidelines for setting up my personal projects. Whether you choose to clone an existing repository or create a new one from scratch, these steps will help you get started quickly.
 
-#### Step 1 - Create a new repository
+## Getting Started
 
-Write the name and description
+### Option A: Clone this repo
 
-#### Step 2 - Clone with SSH
+1. **Create a new repository**: Start by creating a new repository on GitHub with a name and description.
 
-Clone this repo.
+2. **Clone with SSH**: Clone this repository to your local machine using SSH.
 
 ```sh
 cd ~/web
@@ -23,7 +23,7 @@ cd <YOUR-AWESOME-PROJECT>
 code .
 ```
 
-#### Step 3 - Configure local name and email
+3. **Configure local name and email**: Customize your Git configuration with your username and email.
 
 I decided to use my professional email globally, and set up another email locally for my personal projects.
 
@@ -34,35 +34,27 @@ git config --local user.name "SandroMiguel" <--- put your username here
 git config --local user.email "sandromiguel@sandromiguel.com" <--- put your email here
 ```
 
-#### Step 4 - Install the dependencies
+4. **Install the dependencies**
 
-```
+```sh
 yarn
 ```
 
-#### Step 5 - Update the dependencies
+5. **Update the dependencies**
 
-```
+```sh
 yarn upgrade-interactive --latest
 ```
 
-#### Step 6 - Documentation
-
-Write a `README.md` that introduces and explains your project.
+6. **Documentation**: Don't forget to write a `README.md` that introduces and explains your project.
 
 ---
 
-## Option B: Create a new repo from scratch
+### Option B: Create a new repo from scratch
 
-### GitHub
+1. **Create a new repository**: Start by creating a new repository on GitHub with a name, description, and choose to add a README and license.
 
-#### Step 1 - Create a new repository
-
-Write the name and description (add readme and license)
-
-#### Step 2 - Clone with SSH
-
-Clone the online repo.
+2. **Clone with SSH**: Clone the online repository to your local machine using SSH.
 
 ```sh
 cd ~/web
@@ -71,7 +63,7 @@ cd <YOUR-AWESOME-PROJECT>
 code .
 ```
 
-#### Step 3 - Configure local name and email
+3. **Configure local name and email**: Customize your Git configuration with your username and email.
 
 I decided to use my professional email globally, and set up another email locally for my personal projects.
 
@@ -80,43 +72,27 @@ git config --local user.name "SandroMiguel" <--- put your username here
 git config --local user.email "sandromiguel@sandromiguel.com" <--- put your email here
 ```
 
-#### Step 4 - Add `.gitignore`
+4. **Add `.gitignore`**: Use [gitignore-boilerplate](https://github.com/SandroMiguel/gitignore-boilerplate)
 
-Use [gitignore-boilerplate](https://github.com/SandroMiguel/gitignore-boilerplate)
-
-### Package Management
-
-#### Step 6 - Add `package.json`
-
-Use [package.json-boilerplate](https://github.com/SandroMiguel/package.json-boilerplate)
+5. **Add `package.json`**: Use [package.json-boilerplate](https://github.com/SandroMiguel/package.json-boilerplate)
 
 **ProTip**: Sync Github topics with `package.json` file keywords
 
-### Conventional Commit Messages & Semantic Versioning
+6. **Conventional Commit Messages & Semantic Versioning**: See [standard-commit](https://github.com/SandroMiguel/standard-commit)
 
-#### Step 7 - Use [standard-commit](https://github.com/SandroMiguel/standard-commit)
+7. **Add `.editorconfig`**: Use [editorconfig-boilerplate](https://github.com/SandroMiguel/editorconfig-boilerplate)
 
-### EditorConfig
+8. **Linting & Code Formatter**: Install [eslint-config-cecilia](https://github.com/SandroMiguel/eslint-config-cecilia)
 
-#### Step 8 - Add `.editorconfig`
+9. **Documentation**: Write a `README.md` that introduces and explains your project.
 
-Use [editorconfig-boilerplate](https://github.com/SandroMiguel/editorconfig-boilerplate)
-
-### Linting & Code Formatter
-
-#### Step 9 - Install [eslint-config-cecilia](https://github.com/SandroMiguel/eslint-config-cecilia)
-
-### Documentation
-
-#### Step 10 - Write a `README.md` that introduces and explains your project.
-
-#### Step 11 - Add [CONTRIBUTING.md](CONTRIBUTING.md)
+10. **Constributing**: Add [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
 ## Visual Studio Code settings
 
-#### Configure Workspace
+### Configure Workspace
 
 **Workspace** settings
 
