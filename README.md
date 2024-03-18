@@ -98,19 +98,13 @@ git config --local user.email "sandromiguel@sandromiguel.com" <--- put your emai
 
 `.vscode/settings.json`
 
-```
+```json
 {
     "workbench.colorCustomizations": {
-        "activityBar.background": "#d40000",
-        "activityBar.activeBackground": "#FF5050",
-        "activityBar.activeBorder": "#ffffff",
-        "activityBar.foreground": "#000000",
-        "activityBar.inactiveForeground": "#ffffff",
-        "activityBarBadge.background": "#000000",
-        "activityBarBadge.foreground": "#ffffff",
-        "statusBar.background": "#d40000",
-        "statusBarItem.hoverBackground": "#FF5050",
-        "statusBar.foreground": "#ffffff"
+        "activityBar.background": "#3eaeca99",
+        "activityBarBadge.background": "#3eaeca",
+        "activityBarBadge.foreground": "#000000",
+        "statusBar.background": "#3eaeca99"
     }
 }
 ```
@@ -119,102 +113,96 @@ git config --local user.email "sandromiguel@sandromiguel.com" <--- put your emai
 
 `~/.config/Code/User/settings.json`
 
-```
+```json
 {
-  "[html]": {
-    "editor.formatOnSave": false
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "cSpell.userWords": ["autoload", "noreferrer", "phpcs", "stylelint"],
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
-  "editor.matchBrackets": "never",
-  "editor.suggest.insertMode": "replace",
-  "editor.suggest.showWords": false,
-  "editor.suggestSelection": "first",
-  "editor.tokenColorCustomizations": {
-    "comments": "#b1b1b1",
-    "variables": "#FF6D4A",
-    "functions": "#00B2BF",
-    "strings": "#FFF",
-    "numbers": "#518EAF",
-    "keywords": "#337DED",
-    "types": "#ffaa00",
-    "textMateRules": [
-      {
-        "scope": "comment",
-        "settings": {
-          "foreground": "#b1b1b1"
-        }
-      }
-    ]
-  },
-  "eslint.alwaysShowStatus": true,
-  "eslint.debug": true,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "gitblame.statusBarMessageFormat": "Blame ${author.name} ( ${author.date} )",
-  "gitlens.codeLens.enabled": false,
-  "javascript.preferences.importModuleSpecifier": "non-relative",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "php.suggest.basic": false,
-  "phpCodeSniffer.standard": "Custom",
-  "phpCodeSniffer.autoExecutable": true,
-  "phpCodeSniffer.standardCustom": "~/phpcs-cecilia-standard",
-  "stylelint.autoFixOnSave": true,
-  "terminal.integrated.copyOnSelection": true,
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.drawBoldTextInBrightColors": false,
-  "terminal.integrated.fontFamily": "noto mono",
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.rendererType": "dom",
-  "todo-tree.filtering.includeGlobs": ["**/*.php", "**/*.js"],
-  "todo-tree.tree.showScanModeButton": false,
-  "typescript.tsserver.log": "off",
-  "versionlens.showVersionLensesAtStartup": false,
-  "vsicons.dontShowNewVersionMessage": true,
-  "workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#5cef81",
-    "editorBracketHighlight.foreground2": "#dfb976",
-    "editorBracketHighlight.foreground3": "#c172d9",
-    "editorBracketHighlight.foreground4": "#4fb1bc",
-    "editorBracketHighlight.foreground5": "#97c26c",
-    "editorBracketHighlight.foreground6": "#abb2c0",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
-    "editor.findMatchBackground": "#00cc44a8",
-    "editor.findMatchHighlightBackground": "#1bb958a1"
-  },
-  "workbench.editor.wrapTabs": true,
-  "workbench.colorTheme": "Visual Studio Dark",
-  "editor.fontSize": 16,
-  "security.workspace.trust.untrustedFiles": "open",
-  "phpcs.standard": "~/phpcs-cecilia-standard",
-  "phpcs.executablePath": "/home/sandro/.config/composer/vendor/bin/phpcs"
+    "[html]": {
+        "editor.formatOnSave": false
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.userWords": ["autoload", "noreferrer", "phpcs", "stylelint"],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.matchBrackets": "never",
+    "editor.suggest.insertMode": "replace",
+    "editor.suggest.showWords": false,
+    "editor.suggestSelection": "first",
+    "editor.tokenColorCustomizations": {
+        "comments": "#b1b1b1",
+        "variables": "#FF6D4A",
+        "functions": "#00B2BF",
+        "strings": "#FFF",
+        "numbers": "#518EAF",
+        "keywords": "#337DED",
+        "types": "#ffaa00",
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#b1b1b1"
+                }
+            }
+        ]
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.debug": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "gitblame.statusBarMessageFormat": "Blame ${author.name} ( ${author.date} )",
+    "gitlens.codeLens.enabled": false,
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "php.suggest.basic": false,
+    "phpCodeSniffer.standard": "Custom",
+    "phpCodeSniffer.autoExecutable": true,
+    "phpCodeSniffer.standardCustom": "~/phpcs-cecilia-standard",
+    "stylelint.autoFixOnSave": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "terminal.integrated.fontFamily": "noto mono",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.rendererType": "dom",
+    "todo-tree.filtering.includeGlobs": ["**/*.php", "**/*.js"],
+    "todo-tree.tree.showScanModeButton": false,
+    "typescript.tsserver.log": "off",
+    "versionlens.showVersionLensesAtStartup": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
+        "editor.findMatchBackground": "#cc00aaa8",
+        "editor.findMatchHighlightBackground": "#1d3d0379",
+        "editor.findMatchHighlightBorder": "#c1fccd"
+    },
+    "workbench.editor.wrapTabs": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.fontSize": 16,
+    "security.workspace.trust.untrustedFiles": "open",
+    "phpcs.standard": "~/phpcs-cecilia-standard",
+    "phpcs.executablePath": "/home/sandro/.config/composer/vendor/bin/phpcs"
 }
-
 ```
 
 ## Contributing
