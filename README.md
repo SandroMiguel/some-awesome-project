@@ -139,10 +139,11 @@ git config --local user.email "sandromiguel@sandromiguel.com" <--- put your emai
     "cSpell.userWords": ["autoload", "noreferrer", "phpcs", "stylelint"],
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.codeActionsOnSave": {
-        "source.fixAll": true
+        "source.fixAll": "explicit"
     },
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
+    "editor.fontSize": 16,
     "editor.formatOnSave": true,
     "editor.matchBrackets": "never",
     "editor.suggest.insertMode": "replace",
@@ -165,31 +166,24 @@ git config --local user.email "sandromiguel@sandromiguel.com" <--- put your emai
             }
         ]
     },
-    "eslint.alwaysShowStatus": true,
     "eslint.debug": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "gitblame.statusBarMessageFormat": "Blame ${author.name} ( ${author.date} )",
-    "gitlens.codeLens.enabled": false,
     "javascript.preferences.importModuleSpecifier": "non-relative",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "php.suggest.basic": false,
-    "phpCodeSniffer.standard": "Custom",
-    "phpCodeSniffer.autoExecutable": true,
-    "phpCodeSniffer.standardCustom": "~/phpcs-cecilia-standard",
-    "stylelint.autoFixOnSave": true,
+    "phpcs.standard": "~/phpcs-cecilia-standard",
+    "phpcs.executablePath": "/home/sandro/.config/composer/vendor/bin/phpcs",
+    "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "terminal.integrated.fontFamily": "noto mono",
     "terminal.integrated.fontSize": 16,
-    "terminal.integrated.rendererType": "dom",
     "todo-tree.filtering.includeGlobs": ["**/*.php", "**/*.js"],
-    "todo-tree.tree.showScanModeButton": false,
     "typescript.tsserver.log": "off",
-    "versionlens.showVersionLensesAtStartup": false,
-    "vsicons.dontShowNewVersionMessage": true,
     "workbench.colorCustomizations": {
         "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
         "editor.findMatchBackground": "#cc00aaa8",
@@ -198,10 +192,69 @@ git config --local user.email "sandromiguel@sandromiguel.com" <--- put your emai
     },
     "workbench.editor.wrapTabs": true,
     "workbench.colorTheme": "Visual Studio Dark",
-    "editor.fontSize": 16,
-    "security.workspace.trust.untrustedFiles": "open",
-    "phpcs.standard": "~/phpcs-cecilia-standard",
-    "phpcs.executablePath": "/home/sandro/.config/composer/vendor/bin/phpcs"
+    "files.watcherExclude": {
+        "**/.yarn/**": true
+    },
+    "editor.wordWrap": "on",
+    "path-intellisense.autoTriggerNextSuggestion": true,
+    "editor.bracketPairColorization.enabled": false,
+    "php-docblocker.useShortNames": true,
+    "better-comments.tags": [
+        {
+            "tag": "@deprecated",
+            "color": "#FFFFFF",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#FF2D00",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "TODO",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ]
 }
 ```
 
