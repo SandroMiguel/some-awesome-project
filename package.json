@@ -15,7 +15,10 @@
         "guidelines",
         "javascript"
     ],
-    "repository": "https://github.com/SandroMiguel/some-awesome-project",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SandroMiguel/some-awesome-project.git"
+    },
     "bugs": {
         "url": "https://github.com/SandroMiguel/some-awesome-project/issues"
     },
