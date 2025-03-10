@@ -43,7 +43,7 @@ yarn
 5. **Update the dependencies**
 
 ```sh
-yarn upgrade-interactive --latest
+yarn upgrade-interactive
 ```
 
 6. **Documentation**: Don't forget to write a `README.md` that introduces and explains your project.
