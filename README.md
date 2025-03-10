@@ -104,7 +104,11 @@ git config --local user.email "sandromiguel@sandromiguel.com" <--- put your emai
         "activityBar.background": "#3eaeca99",
         "activityBarBadge.background": "#3eaeca",
         "activityBarBadge.foreground": "#000000",
-        "statusBar.background": "#3eaeca99"
+        "titleBar.activeBackground": "#157A6E",
+        "titleBar.activeForeground": "#FEFBFC",
+        "statusBar.background": "#3eaeca99",
+        "statusBarItem.hoverBackground": "#4580da",
+        "statusBar.foreground": "#e7e7e7"
     }
 }
 ```
