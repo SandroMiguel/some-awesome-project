@@ -1,6 +1,6 @@
 {
     "name": "some-awesome-project",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Project setup guidelines for my personal projects",
     "main": "index.js",
     "license": "MIT",
@@ -39,7 +39,6 @@
         "@commitlint/config-conventional": "^16.2.4",
         "cz-conventional-changelog": "^3.3.0",
         "eslint-config-cecilia": "^2.10.1",
-        "husky": "^9.1.7",
-        "standard-version": "^9.5.0"
+        "husky": "^9.1.7"
     }
 }
