@@ -35,8 +35,8 @@
         }
     },
     "devDependencies": {
-        "@commitlint/cli": "^16.3.0",
-        "@commitlint/config-conventional": "^16.2.4",
+        "@commitlint/cli": "^19.8.1",
+        "@commitlint/config-conventional": "^19.8.1",
         "cz-conventional-changelog": "^3.3.0",
         "eslint-config-cecilia": "^2.10.1",
         "husky": "^9.1.7"
