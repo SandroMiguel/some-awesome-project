@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/SandroMiguel/some-awesome-project/compare/v1.1.0...v1.2.0) (2025-05-29)
+
+
+### Features
+
+* upgrade deps ([44d31d1](https://github.com/SandroMiguel/some-awesome-project/commit/44d31d1ef1861c735e569c2a886e53b86b96b472))
+
+
+### Bug Fixes
+
+* **package.json:** fix repository ([95d113d](https://github.com/SandroMiguel/some-awesome-project/commit/95d113d1f45a07e179d462b680c28ef1ef67b57e))
+
 ## [1.1.0](https://github.com/SandroMiguel/some-awesome-project/compare/v1.0.2...v1.1.0) (2022-07-07)
 
 
